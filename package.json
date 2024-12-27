@@ -11,5 +11,8 @@
   "description": "",
   "repository": {
     "url": "https://github.com/CHIRAG-004/new.git"
-  }
+  },
+  "publishConfig": {
+  "registry": "https://npm.pkg.github.com"
+}
 }
