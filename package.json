@@ -1,0 +1,15 @@
+{
+  "name": "@chirag-004/new",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "repository": {
+    "url": "https://github.com/CHIRAG-004/new.git"
+  }
+}
