@@ -13,6 +13,6 @@
     "url": "https://github.com/CHIRAG-004/new.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "@chirag-004:registry": "https://npm.pkg.github.com"
   }
 }
