@@ -17,13 +17,12 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16
-          registry-url: https://registry.npmjs.org/
-          scope: '@CHIRAG-004'
+          registry-url: https://registry.npmjs.org/  
 
       - name: Install dependencies
         run: npm install
 
       - name: Publish to npm
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.Github_Packages }}
         run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
